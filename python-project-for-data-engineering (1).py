@@ -139,9 +139,10 @@ def transform(dataFrame, ex_rate):
 
 # In[ ]:
 
-
-def load("Add Function Parameters"):
+targetfile="bank_matket_cap_gbp.csv"
+def load(targetfile,datatoload):
     # Write your code here
+    datatoload.to_csv(targetfile, index=False)
     
 
 
